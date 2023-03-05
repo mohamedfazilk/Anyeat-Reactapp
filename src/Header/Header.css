@@ -11,6 +11,43 @@
     object-fit: contain;
     margin: 0 20px;
    margin-left:30px;
-  
 
+}
+.searchinputdrop{
+    display: flex;
+    padding: 1px 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    height: 47px;
+    margin-top: -37px;
+    
+
+    
+
+}
+
+.header_searchpart{
+    display: flex;
+ 
+    justify-content:center ;
+}
+#searchfield{
+    margin-top: 1px;
+}
+#my-dropdown{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 120%;
+    width: 11rem;
+    padding: 10px 0rem;
+    height: 2rem;
+    padding: 9px;
+    color: rgb(255, 255, 255);
+    outline: none;
+   
+}
+.search{
+    margin-top: 10px;
 }
