@@ -71,7 +71,9 @@ const Header = () => {
         <Link to='/login' className='no-underline'>
           <span className='header_optionOne'>Log in</span>
           </Link>
+          <Link to='/signup' className='no-underline'>
           <span className='header_optionTwo'>Sign up</span>
+          </Link>
         </div>
 
       </div>

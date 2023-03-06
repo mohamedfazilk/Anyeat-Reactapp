@@ -75,7 +75,11 @@ const Login = () => {
         />
         <FormControlLabel
           control={<Checkbox value="remember" color="secondary" />}
-          label="Remember me"
+          label={
+            <Typography sx={{ fontSize: '15px',   color:'rgb(105, 105, 105)' }}>
+            Remember me
+            </Typography>
+          }
         />
         <Button
           type="submit"
@@ -93,8 +97,10 @@ const Login = () => {
             </Link>
           </Grid>
           <Grid item>
-            <Link className='no-underline' href="#" variant="body2"  sx={{ mt: 3, mb: 2,  backgroundColor:"rgb(224, 53, 70)" }}>
-              {"Don't have an account? Sign Up"}
+            <span className='no-underline'>Don't have an account?</span>
+            <Link to='/signup'  style={{color:'red', marginLeft:3}}className='no-underline' href="#" variant="body2" 
+             sx={{ mt: 3, mb: 2,  backgroundColor:"rgb(224, 53, 70)" }}>
+              {" Sign Up"}
             </Link>
           </Grid>
         </Grid>
