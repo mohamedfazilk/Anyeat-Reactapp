@@ -72,8 +72,8 @@ const Header = () => {
 
       <div className="header-right">
         <div className="header_auth">
-          <span className='header_optionOne'>Login</span>
-          <span className='header_optionTwo'>Sign Up</span>
+          <span className='header_optionOne'>Log in</span>
+          <span className='header_optionTwo'>Sign up</span>
         </div>
 
       </div>
