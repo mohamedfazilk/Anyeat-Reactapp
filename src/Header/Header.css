@@ -12,6 +12,7 @@
     object-fit: contain;
     margin: 0 20px;
    margin-left:30px;
+   cursor: pointer;
    
 
 }
@@ -39,7 +40,6 @@
 
 .header_searchpart{
     display: flex;
- 
     justify-content:center ;
 }
 #searchfield{
@@ -91,7 +91,8 @@
     padding: 0.2rem !important;
     border-style: solid;
     border-color: transparent;
-    border-width: 0px 0px 0.2rem
+    border-width: 0px 0px 0.2rem;
+    
 }
 
 .header_optionTwo{
@@ -103,3 +104,6 @@
 .search{
     margin-top: 10px;
 }
+.no-underline {
+    text-decoration: none;
+  }
