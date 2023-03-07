@@ -1,13 +1,13 @@
 import React from 'react'
+import Imageslid from '../Imageslid/Imageslid'
 
 
 const Home = () => {
     return (
 
-        <div>
-          
-           This is Home Page
-        </div>
+        
+        <Imageslid/>
+       
     )
 }
 
