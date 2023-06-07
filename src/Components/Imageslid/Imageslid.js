@@ -8,6 +8,10 @@ import { dataImg } from '../data';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './slick.css'
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import IconButton from '@mui/material/IconButton';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 
 
@@ -16,24 +20,20 @@ const Imageslid = () => {
   const CustomPrevArrow = (props) => {
     const { onClick } = props;
     return (
-      <button
-        className="custom-arrow custom-prev-arrow"
-        onClick={onClick}
-      >
-        Prev
-      </button>
+      <button className="custom-arrow custom-prev-arrow" onClick={onClick}>
+        <ArrowForwardIosIcon fontSize="small" />
+   
+    </button>
     );
   };
   
   const CustomNextArrow = (props) => {
     const { onClick } = props;
     return (
-      <button
-        className="custom-arrow custom-next-arrow"
-        onClick={onClick}
-      >
-        Next
-      </button>
+      <button className="custom-arrow custom-next-arrow" onClick={onClick}>
+          <ArrowBackIosNewIcon fontSize="small" />
+
+    </button>
     );
   };
 
@@ -83,12 +83,14 @@ const Imageslid = () => {
     <div className="main_title">
     <h3 className='main_title'>Inspiration for your first order</h3>
     </div>
-    <Slider {...settings} >
+    <Slider {...settings} slider>
          {dataImg.map((item) => (
           <div className="card">
             <div className="card-top">
+              
               <img
                 src={item.linkImg}
+                
                 alt={item.title}/>
             
             </div>

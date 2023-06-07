@@ -77,11 +77,15 @@
   align-self: center;
   cursor: pointer;
 }
+.custom-arrow{
+  background: rgb(255, 255, 255);
+  color:  rgb(79, 79, 79);
+}
 
 .main_title{
   display: flex;
   justify-content: center;
-  color: rgb(28, 28, 28);
+  color: rgb(79, 79, 79);
     font-size: 32px;
     line-height: 1.2;
     font-weight: 500;

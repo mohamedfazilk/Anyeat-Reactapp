@@ -1,12 +1,16 @@
 import React from 'react'
 import Imageslid from '../Imageslid/Imageslid'
+import CardImages from '../Cardimages/CardImages'
 
 
 const Home = () => {
     return (
 
-        
-        <Imageslid/>
+        <div className="main_home">
+             <Imageslid/>
+             <CardImages/>
+        </div>
+       
        
     )
 }
