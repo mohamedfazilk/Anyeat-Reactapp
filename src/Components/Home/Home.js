@@ -1,6 +1,8 @@
 import React from 'react'
 import Imageslid from '../Imageslid/Imageslid'
 import CardImages from '../Cardimages/CardImages'
+import { products } from '../data'
+
 
 
 const Home = () => {
@@ -8,7 +10,8 @@ const Home = () => {
 
         <div className="main_home">
              <Imageslid/>
-             <CardImages/>
+             <CardImages products={products}/>
+           
         </div>
        
        

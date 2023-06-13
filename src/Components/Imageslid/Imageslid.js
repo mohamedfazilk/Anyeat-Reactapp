@@ -1,15 +1,10 @@
-import { Typography } from '@mui/material';
-import React, { useState } from 'react'
+
+import React from 'react'
 import Slider from "react-slick";
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import { dataImg } from '../data';
+import { subproducts } from '../data';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './slick.css'
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import IconButton from '@mui/material/IconButton';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -84,11 +79,11 @@ const Imageslid = () => {
     <h3 className='main_title'>Inspiration for your first order</h3>
     </div>
     <Slider {...settings} slider>
-         {dataImg.map((item) => (
-          <div className="card">
+         {subproducts.map((item,index) => (
+          <div className="card" key={index}>
             <div className="card-top">
               
-              <img
+              <img 
                 src={item.linkImg}
                 
                 alt={item.title}/>
@@ -103,43 +98,7 @@ const Imageslid = () => {
       
       </div>
 
-    // <Container className='slider-wrapper' component="main" maxWidth="xl" sx={{
-    //   background: 'rgb(248, 248, 248)',
-    //   minHeight: '250px',
-    //   width: '100%',
-    //   height: '100%',
-    //   display: 'inline-block',
-    // }}>
-    //   <Box>
-    //     <Typography sx={{
-    //       color: 'rgb(28, 28, 28)',
-    //       fontSize: '22px',
-    //       margin: '20px', // Apply margin only to top and bottom
-    //     }}>
-    //       Inspiration for your first order
-    //     </Typography>
-    //     <Slider {...settings}>
-    //     {dataImg.map((item) => (
-    //       <div className="card">
-    //         <div className="card-top">
-    //           <img
-    //             src={item.linkImg}
-    //             alt={item.title}/>
-    //           <h1>{item.title}</h1>
-    //         </div>
-    //         <div className="card-bottom">
-    //           <h3>{item.price}</h3>
-    //           <span className="category">{item.category}</span>
-    //         </div>
-    //       </div>
-    //     ))}
-    //   </Slider>
-
-
-    //   </Box>
-
-
-    // </Container>
+    
 
 
 

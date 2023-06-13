@@ -13,11 +13,7 @@ import { Link } from 'react-router-dom';
 
 
 const Login = () => {
-    const linkStyle = { color: 'black' };
-
   return (
-
-    
 
     <Container component="main" maxWidth="xs"  
     sx={{

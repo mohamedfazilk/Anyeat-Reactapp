@@ -1,0 +1,20 @@
+.cart-container{
+    display: flex;
+}
+.add_cart{
+    width: 100%;
+    height: 100%;
+}
+
+.addcart_details{
+      
+}
+.cart_img{
+    margin-right: 10px;
+}
+.cart-left{
+    float: left;
+}
+.cart-right{
+    float:right;
+}

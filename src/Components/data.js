@@ -1,4 +1,4 @@
-export const dataImg = [
+export const subproducts = [
     {
       id: 1,
       title: 'Chicken',
@@ -55,7 +55,7 @@ export const dataImg = [
         linkImg:"https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
       }
     ];
-    export const dataImages =[
+    export const products =[
       {
         id:1,
         title: 'Burger',
