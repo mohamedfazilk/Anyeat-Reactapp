@@ -12,14 +12,30 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <CartProvider>
-        <Routes>
-        <Route path='/signup' element={<Signup/>}/>
-          <Route path='/login' element={<Login/>}/>
-         
-          <Route path='/'  element={<><Header/><Home /></>}/>
-          <Route path='/cart' element={<Addcart/>}/>
-        </Routes>
+        <CartProvider>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header />
+                  <Home />
+                </>
+              }
+            />
+            <Route
+              path="/cart"
+              element={
+                <>
+                  <Header />
+                  <Addcart />
+                </>
+              }
+            />
+
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
+          </Routes>
         </CartProvider>
       </div>
     </BrowserRouter>

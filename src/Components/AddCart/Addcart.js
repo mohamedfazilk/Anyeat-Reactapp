@@ -16,19 +16,25 @@ const Addcart = () => {
           
         <div className='cart-left'>
         <div className='cart_img'>
-        <h3>cart image</h3>
         </div>
         </div>
         <div className='cart_right'>
         <div className='cart_content'>
-          cart details
-          <ul>
-                  {cartItems.map((item) => (
-                    <li key={item.id}>
-                      {item.title} - {item.price}
-                    </li>
-                  ))}
-                </ul>
+        <h2>Cart Items:</h2>
+      {cartItems.length > 0 ? (
+        <ul>
+          {cartItems.map((item) => (
+            <li key={item.id}>
+              <p>{item.title}</p>
+              <p>{item.price}</p>
+              <img src={item.image} alt={item.title} />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>No items in the cart</p>
+      )}
+       
         </div>
       </div>
       </div>
