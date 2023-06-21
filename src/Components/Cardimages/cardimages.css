@@ -1,0 +1,56 @@
+.card_content button{
+float: right;
+}
+.main_card{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+.grid_card{
+    border-color: rgb(199, 10, 10);
+    box-shadow: rgb(28 28 28 / 12%) 0px 0.4rem 1.8rem;
+    box-sizing: border-box;
+    height: 100%;
+    border-radius:14.5rem;
+
+   
+}
+.grid_card img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+   
+}
+
+.sub_card{
+    border-radius: 1.5rem;
+    
+}
+.grid_card .MuiCardMedia-root {
+    height: 230px; /* Adjust the image height as per your requirements */
+    /* Ensure the image fills the available space */
+  }
+
+  .card_text{
+    margin: 20.8rem 0px 0.6rem;
+    line-height: 1.2;
+  }
+  .card_btn{
+  display: flex;
+  justify-content: space-between;
+  }
+
+  /* {
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+    color: #fff;
+  } */

@@ -1,0 +1,142 @@
+.header-container{
+    min-height: 150px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.header-left{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+margin-left: 20%;
+   
+    
+}
+
+.header_logo{
+
+    width: 125px;
+    object-fit: contain;
+    margin: 0 20px;
+   cursor: pointer;
+   float: left;
+  
+   
+
+}
+.map{
+    color: rgb(255, 126, 139);
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 20px;
+    height: 20px;
+}
+.searchinputdrop{
+    display: flex;
+    padding: 1px 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    height: 47px;
+    margin-top: -37px;
+    
+
+    
+
+}
+
+.cart-items-count{
+    background-color: rgba(0, 0, 0, 0.8);
+                 
+                  border-radius:50%;
+                  color:#fff;
+                  padding:2px 6px;
+                  font-size:10px;
+                  margin-left:8px;
+                  display:flex;
+                  align-items:center;
+}
+#searchfield{
+    margin-top:-3px; 
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 18rem;
+    
+}
+#my-dropdown{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 120%;
+    width: 7rem;
+    padding: 10px 0rem;
+    height: 2rem;
+    padding: 9px;
+    color: rgb(255, 255, 255);
+    outline: none;
+   
+}
+.location_txt{
+
+}
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.header_auth{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 20px;
+    align-items: center;
+    margin-top: -37px;
+}
+   
+
+
+.header_optionOne{
+   margin-right: 30px;
+   font-size: 17px;
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+    cursor: pointer; 
+    padding: 0.2rem !important;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 0px 0.2rem;
+    
+}
+
+.header_optionTwo{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+    cursor: pointer; 
+}
+.search{
+    margin-top: 10px;
+}
+.no-underline {
+    text-decoration: none;
+  }
+
+  .profile{
+    padding: 20px;
+    white-space: nowrap;
+  }
+  .profile_icon{
+    font-size: 27px;
+    color: blueviolet;
+    margin-left: 9px;
+   
+  }
+
+  .profile_name{
+   
+  }

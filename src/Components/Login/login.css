@@ -1,0 +1,9 @@
+.loginlogo{
+    margin-top: 30;
+}
+
+.no-underline {
+    text-decoration: none;
+    color:rgb(105, 105, 105);
+    font-size: 12px;
+  }
